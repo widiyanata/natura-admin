@@ -1,0 +1,207 @@
+<div class="row g-4">
+    <div class="col-md-5">
+      <div class="card border-0 shadow rounded-3">
+        <div class="card-body py-1">
+          <div class="row">
+            <form action="">
+              <div class="card-body">
+                <h5 class="text-success mb-3">
+                  Search
+                  <i class="fas fa-search"></i>
+                </h5>
+  
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label"
+                        >Tanggal Mulai</label
+                      >
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm" />
+                      </div>
+                    </div>
+                    <div class="row mb-2">
+                      <label for="" class="col-sm-6 col-form-label"
+                        >Tanggal Akhir</label
+                      >
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm" />
+                      </div>
+                    </div>
+                    <div class="d-grid my-3">
+                        <button
+                          type="submit"
+                          class="btn btn-outline-success rounded-3"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-7">
+      <div class="card border-0 shadow rounded-3">
+        <div class="card-header">
+          <!-- Nav tabs -->
+          <ul
+            class="nav nav-tabs nav-fill card-header-tabs"
+            id="transaction-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home"
+                type="button"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+              >
+                Team Development
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link "
+                id="profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+              >
+                Team Group
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div
+              class="tab-pane"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              home
+            </div>
+            <div
+              class="tab-pane active"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              <div class="row">
+                <label for="" class="col-sm-4 col-form-label"
+                  >Member</label
+                >
+                <div class="col-sm-8">
+                  <input type="text" class="form-control form-control-sm" />
+                </div>
+              </div>
+              <div class="row ">
+                <label for="" class="col-sm-4 col-form-label"
+                  >Level</label
+                >
+                <div class="col-sm-8">
+                  <select name="" id="" class="form-select form-select-sm">
+                      <option value=""></option>
+                      <option value="">b</option>
+                    </select>
+                </div>
+              </div>
+              <div class="row">
+                <label for="" class="col-sm-4 col-form-label">Posisi</label>
+                <div class="col-sm-8">
+                  <select name="" id="" class="form-select form-select-sm">
+                    <option value=""></option>
+                    <option value="">b</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 shadow rounded-3">
+        <div class="card-body py-0"></div>
+      </div>
+    </div>
+  
+    <div class="col-12">
+      <div class="card border-0 shadow rounded-3">
+        <div class="card-body">
+          <div class="d-flex">
+            <h5 class="text-success">Development History</h5>
+            <div class="input-group mb-3 ms-auto" style="max-width: 250px">
+              <span class="input-group-text" id="suffixId">
+                <i class="fas fa-search"></i>
+              </span>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Search your team"
+                aria-describedby="suffixId"
+              />
+            </div>
+          </div>
+        </div>
+        <table class="table table-borderless">
+          <thead class="bg-light">
+            <tr>
+              <td class="text-center" width="40" scope="col">#</td>
+              <td scope="col">Kode Member</td>
+              <td scope="col">Nama</td>
+              <td scope="col">Tanggal</td>
+              <td scope="col">Bonus Sponsor</td>
+              <td scope="col">Bonus Development</td>
+              <td scope="col">Bonus Group</td>
+              <td scope="col">Bonus Leadership</td>
+              <td scope="col">Bonus Loyalty</td>
+              <td scope="col">Total Bonus</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="text-center" scope="row">1</th>
+              <td>Mark</td>
+              <td>Kiri</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>
+                <div class="bonus-level">
+                    <i class="fas fa-lock-open text-success   "></i>
+                    <i class="fas fa-lock-open text-success   "></i>
+                    <i class="fas fa-lock text-danger   "></i>
+                    <i class="fas fa-lock text-danger   "></i>
+                    <i class="fas fa-lock text-danger   "></i>
+                </div>
+              </td>
+              <td>-</td>
+              <td>-</td>
+              <td class="text-center">
+                <a href="#">Details</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

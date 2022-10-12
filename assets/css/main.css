@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+}
+a,
+.navbar-light .navbar-nav .nav-link {
+  color: #5bc029;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2f6514;
+}
+
+.text-success {
+  color: #5bc029 !important;
+}
+.text-justify {
+  text-align: justify;
+}
+.bg-radial-white {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ffffff 21.67%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.rounded-4 {
+  border-radius: 2.5em;
+}
+
+.rounded-3 {
+  border-radius: 1em!important;
+}
+
+#sidenav .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #F8F8F8;
+  color: #5BC029;
+  font-weight: bold;
+}
+
+#sidenav .nav-pills .nav-link {
+  border-radius: 0 20px 20px 0;
+  margin-bottom: .7em;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-subnav .nav-link {
+  color: #333!important;
+}
+
+#setting-nav .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  background-color: #F8F8F8;
+  color: #5BC029;
+  border:0;
+  border-bottom: 2px solid #5BC029;
+}
+#setting-nav .nav-tabs .nav-link {
+  color: #333;
+}
+#setting-nav .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border: 0!important;
+  color: #5BC029;
+  border-bottom: 2px solid #5BC029;
+}
+
+.profile-img {
+  margin-top: -65px;
+}
+
+.form-control, .form-select, .input-group-text {
+  background-color: #F8F8F8;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: inset 0px 7px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card-img, .card-img-top {
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
+
+#transaction-tab.nav-tabs .nav-link {
+  color: #5BC029;
+}
+#transaction-tab.nav-tabs .nav-link.active {
+  border-radius: 10px 10px 0 0;
+}
