@@ -89,3 +89,52 @@ a:hover {
 #transaction-tab.nav-tabs .nav-link.active {
   border-radius: 10px 10px 0 0;
 }
+.tf-tree .tf-nc, .tf-tree .tf-node-content {
+  border: 0!important;
+  padding: 0!important;
+}
+
+.tf-nc {
+  text-align: center;
+}
+
+.hirarki-foto {
+  margin-top: -40%;
+  border: 8px solid rgba(242, 210, 41, 1);
+}
+
+.tf-tree {
+  overflow: visible;
+}
+
+.tf-nc .list-group-item {
+  color: #5bc029;
+  border: 0!important;
+}
+
+.tf-nc .list-group-item:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.tf-tree .tf-nc:before, .tf-tree .tf-node-content:before {
+  top: -4.5em;
+}
+
+.tf-tree li li:before {
+  top: -4.53125em;
+}
+
+.tf-tree li ul {
+  margin: 6em 0;
+}
+
+.hirarki-sumary table > tbody > tr:nth-of-type(odd) > * {
+  color: #5bc029!important;
+}
+
+.hirarki-sumary {
+  width: 300px;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
