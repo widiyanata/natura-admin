@@ -1,3 +1,30 @@
+<div class="dashboard-subnav pb-5">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-3" href="#">Page Title</a>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link profile-nav d-flex align-items-center" href="setting.html">
+              <img src="https://picsum.photos/40" class="img-circle img-fluid rounded-circle me-2" alt="" />
+              <span class=""> Jonatan Doe </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="setting.html">
+              <img src="assets/img/Settings.png" alt="" width="20" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+</div>
 <div class="row g-4">
   <div class="col-md-5">
     <div class="card border-0 shadow rounded-3">
@@ -13,17 +40,13 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="row">
-                    <label for="" class="col-sm-6 col-form-label"
-                      >Tanggal Mulai</label
-                    >
+                    <label for="" class="col-sm-6 col-form-label">Tanggal Mulai</label>
                     <div class="col-sm-6">
                       <input type="text" class="form-control form-control-sm" />
                     </div>
                   </div>
                   <div class="row mb-2">
-                    <label for="" class="col-sm-6 col-form-label"
-                      >Tanggal Akhir</label
-                    >
+                    <label for="" class="col-sm-6 col-form-label">Tanggal Akhir</label>
                     <div class="col-sm-6">
                       <input type="text" class="form-control form-control-sm" />
                     </div>
@@ -38,9 +61,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <label for="" class="col-sm-6 col-form-label"
-                      >Status Pembayaran</label
-                    >
+                    <label for="" class="col-sm-6 col-form-label">Status Pembayaran</label>
                     <div class="col-sm-6">
                       <select name="" id="" class="form-select form-select-sm">
                         <option value=""></option>
@@ -49,10 +70,7 @@
                     </div>
                   </div>
                   <div class="d-grid my-3">
-                    <button
-                      type="submit"
-                      class="btn btn-outline-success rounded-3"
-                    >
+                    <button type="submit" class="btn btn-outline-success rounded-3">
                       Submit
                     </button>
                   </div>
@@ -69,50 +87,22 @@
     <div class="card border-0 shadow rounded-3">
       <div class="card-header">
         <!-- Nav tabs -->
-        <ul
-          class="nav nav-tabs nav-fill card-header-tabs"
-          id="transaction-tab"
-          role="tablist"
-        >
+        <ul class="nav nav-tabs nav-fill card-header-tabs" id="transaction-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="home-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#home"
-              type="button"
-              role="tab"
-              aria-controls="home"
-              aria-selected="true"
-            >
+            <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+              aria-controls="home" aria-selected="true">
               Team Development
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button
-              class="nav-link active"
-              id="profile-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#profile"
-              type="button"
-              role="tab"
-              aria-controls="profile"
-              aria-selected="false"
-            >
+            <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+              type="button" role="tab" aria-controls="profile" aria-selected="false">
               Team Group
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="messages-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#messages"
-              type="button"
-              role="tab"
-              aria-controls="messages"
-              aria-selected="false"
-            >
+            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button"
+              role="tab" aria-controls="messages" aria-selected="false">
               Status Bonus
             </button>
           </li>
@@ -121,37 +111,23 @@
       <div class="card-body">
         <!-- Tab panes -->
         <div class="tab-content">
-          <div
-            class="tab-pane"
-            id="home"
-            role="tabpanel"
-            aria-labelledby="home-tab"
-          >
+          <div class="tab-pane" id="home" role="tabpanel" aria-labelledby="home-tab">
             home
           </div>
-          <div
-            class="tab-pane active"
-            id="profile"
-            role="tabpanel"
-            aria-labelledby="profile-tab"
-          >
+          <div class="tab-pane active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
             <div class="row">
-              <label for="" class="col-sm-4 col-form-label"
-                >Member</label
-              >
+              <label for="" class="col-sm-4 col-form-label">Member</label>
               <div class="col-sm-8">
                 <input type="text" class="form-control form-control-sm" />
               </div>
             </div>
             <div class="row mb-2">
-              <label for="" class="col-sm-4 col-form-label"
-                >Perekrut</label
-              >
+              <label for="" class="col-sm-4 col-form-label">Perekrut</label>
               <div class="col-sm-8">
                 <select name="" id="" class="form-select form-select-sm">
-                    <option value=""></option>
-                    <option value="">b</option>
-                  </select>
+                  <option value=""></option>
+                  <option value="">b</option>
+                </select>
               </div>
             </div>
             <div class="row">
@@ -164,9 +140,7 @@
               </div>
             </div>
             <div class="row">
-              <label for="" class="col-sm-4 col-form-label"
-                >Level</label
-              >
+              <label for="" class="col-sm-4 col-form-label">Level</label>
               <div class="col-sm-8">
                 <select name="" id="" class="form-select form-select-sm">
                   <option value=""></option>
@@ -175,12 +149,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="tab-pane"
-            id="messages"
-            role="tabpanel"
-            aria-labelledby="messages-tab"
-          >
+          <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
             messages
           </div>
         </div>
@@ -200,14 +169,8 @@
             <span class="input-group-text" id="suffixId">
               <i class="fas fa-search"></i>
             </span>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              class="form-control"
-              placeholder="Search your team"
-              aria-describedby="suffixId"
-            />
+            <input type="text" name="name" id="name" class="form-control" placeholder="Search your team"
+              aria-describedby="suffixId" />
           </div>
         </div>
       </div>
@@ -238,7 +201,7 @@
             <td>-</td>
             <td>-</td>
             <td class="text-center">
-              <a href="#">Details</a>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modal-detail">Details</a>
             </td>
           </tr>
         </tbody>
@@ -246,3 +209,237 @@
     </div>
   </div>
 </div>
+
+<!-- Modal Body -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="modal-detail" tabindex="-1" data-bs-keyboard="false" role="dialog"
+  aria-labelledby="modalTitleId" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content rounded-3">
+
+      <div class="modal-body p-0">
+        <div class="card border-0 shadow rounded-3">
+          <div class="card-body py-1">
+            <form action="">
+              <div class="card-body">
+                <h5 class="text-success mb-3">                 
+                  Transactions Details                 
+                </h5>
+
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Tanggal Mulai</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">No Transaksi</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Member</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Kode Member</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Status</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row mb-2">
+                      <label for="" class="col-sm-6 col-form-label">Pembayaran</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row mb-2">
+                      <label for="" class="col-sm-6 col-form-label">Status Pembayaran</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="mb-3">
+                      <label for="" class="form-label">Keterangan</label>
+                      <textarea name="keterangan" id="" cols="10" rows="3" class="form-control"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-8">
+                    <p class="text-success mb-3">
+                      <b>
+                        Info Pengiriman
+                      </b>
+                    </p>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Kurir</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Alamat</label>
+                      <div class="col-sm-6">
+                        <textarea name="keterangan" id="" cols="10" rows="3" class="form-control"></textarea>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-md-4">
+                    <p class="text-success mb-3 d-flex justify-content-between">
+                      <b>
+                        Detail Pengiriman
+                      </b>
+
+                      <a href="#">Lihat detail</a>
+                    </p>
+
+                    <div class="table-responsive border" style="height: 150px; overflow-y: scroll;">
+                      <table class="table table-striped table-sm">
+                        <tbody>
+                          <tr class="">
+                            <td scope="row">10 jan 13:00, pesanan diterima oleh Anton</td>
+                          </tr>
+                          <tr class="">
+                            <td scope="row">10 jan 13:00, pesanan diterima oleh Anton</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <br>
+
+
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="card border-0 shadow-sm">
+                      <div class="card-body p-0">
+                        <table class="table table-borderless">
+                          <thead class="bg-light">
+                            <tr>
+                              <td class="text-center" width="40" scope="col">#</td>
+                              <td scope="col">Kode Item</td>
+                              <td scope="col">Nama Product</td>
+                              <td scope="col">Jumlah</td>
+                              <td scope="col">Harga</td>
+                              <td scope="col">Total</td>
+
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th class="text-center" scope="row">1</th>
+                              <td>29183849</td>
+                              <td>Respiratory Clear Oral Spray</td>
+                              <td>2</td>
+                              <td>Rp499.000</td>
+                              <td>Rp998.000</td>
+
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                      <div class="col-md-3">
+                        <span class="text-success">
+                          No. Bonus
+                        </span>
+                      </div>
+                      <div class="col-md-4">
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="col-md-4">
+                        <a href="#">
+                          <i class="fab fa-whatsapp    "></i>
+                          Need help?
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Total Jumlah</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Total harga</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Ongkos Kirim</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Diskon</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">Total Belanja</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label for="" class="col-sm-6 col-form-label">BV</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row pt-5">
+                  <div class="col-12 text-end">
+                    <button type="button" class="btn btn-outline-secondary px-5 rounded-3"  data-bs-dismiss="modal">Batalkan</button>
+                    <button type="button" class="btn btn-outline-success px-5 rounded-3"  data-bs-dismiss="modal">Kembali</button>
+                  </div>
+
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Optional: Place to the bottom of scripts -->
+<script>
+  const myModal = new bootstrap.Modal(document.getElementById('modal-detail'), options)
+</script>

@@ -1,3 +1,30 @@
+<div class="dashboard-subnav pb-5">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3" href="#">Welcome Back, <b>Jonatahan Doe</b> </a>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link profile-nav d-flex align-items-center" href="setting.html">
+              <img src="https://picsum.photos/40" class="img-circle img-fluid rounded-circle me-2" alt="" />
+              <span class=""> Jonatan Doe </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="setting.html">
+              <img src="assets/img/Settings.png" alt="" width="20" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+</div>
 <div class="container">
   <div class="row">
     <div id="hirarki" class="position-relative">
@@ -31,8 +58,17 @@
               </tbody>
             </table>
           </div>
-          
+
         </div>
+      </div>
+    </div>
+
+    <div id="legend">
+      <div class="dashboard-legend">
+        <h5 class="text-success mb-3">Member Legends</h5>
+        <p><i class="fas fa-square shadow-lg"></i> Pro Member</p>
+        <p><i class="fas fa-square shadow-lg text-warning"></i> Advance Member</p>
+        <p><i class="fas fa-square shadow-lg text-black-50"></i> Basic Member</p>
       </div>
     </div>
     <div class="tf-tree">
@@ -40,7 +76,7 @@
         <li>
           <span class="tf-nc text-success">
             <div class="card rounded-3 border-0 shadow">
-              <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
+              <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75 pro-member" src="https://picsum.photos/80"
                 alt="Card image cap">
               <div class="card-body px-3">
                 <p class="card-title fw-bold">Jonathan Doe</p>
@@ -61,7 +97,7 @@
             <li>
               <span class="tf-nc text-success">
                 <div class="card rounded-3 border-0 shadow">
-                  <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
+                  <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75 pro-member" src="https://picsum.photos/80"
                     alt="Card image cap">
                   <div class="card-body px-3">
                     <p class="card-title fw-bold">Jonathan Doe</p>
@@ -82,7 +118,7 @@
                 <li>
                   <span class="tf-nc text-success">
                     <div class="card rounded-3 border-0 shadow">
-                      <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
+                      <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75 pro-member" src="https://picsum.photos/80"
                         alt="Card image cap">
                       <div class="card-body px-3">
                         <p class="card-title fw-bold">Jonathan Doe</p>
@@ -103,8 +139,8 @@
                     <li>
                       <span class="tf-nc text-success">
                         <div class="card rounded-3 border-0 shadow">
-                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
-                            alt="Card image cap">
+                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75 pro-member"
+                            src="https://picsum.photos/80" alt="Card image cap">
                           <div class="card-body px-3">
                             <p class="card-title fw-bold">Jonathan Doe</p>
                           </div>
@@ -124,8 +160,8 @@
                     <li>
                       <span class="tf-nc text-success">
                         <div class="card rounded-3 border-0 shadow">
-                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
-                            alt="Card image cap">
+                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75 advance-member"
+                            src="https://picsum.photos/80" alt="Card image cap">
                           <div class="card-body px-3">
                             <p class="card-title fw-bold">Jonathan Doe</p>
                           </div>
@@ -147,7 +183,7 @@
                 <li>
                   <span class="tf-nc text-success">
                     <div class="card rounded-3 border-0 shadow">
-                      <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
+                      <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75 advance-member" src="https://picsum.photos/80"
                         alt="Card image cap">
                       <div class="card-body px-3">
                         <p class="card-title fw-bold">Jonathan Doe</p>
@@ -168,11 +204,11 @@
                     <li>
                       <span class="tf-nc text-success">
                         <div class="card rounded-3 border-0 shadow">
-                          
+
                           <div class="card-body px-3">
                             <a href="#" class="btn btn-outline-success rounded-3 px-3 my-3">Register</a>
                           </div>
-                          
+
                         </div>
                       </span>
                     </li>
@@ -182,7 +218,7 @@
                           <div class="card-body px-3">
                             <a href="#" class="btn btn-outline-success rounded-3 px-3 my-3">Register</a>
                           </div>
-                          
+
                         </div>
                       </span>
                     </li>
@@ -193,7 +229,7 @@
             <li>
               <span class="tf-nc text-success">
                 <div class="card rounded-3 border-0 shadow">
-                  <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
+                  <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75 advance-member" src="https://picsum.photos/80"
                     alt="Card image cap">
                   <div class="card-body px-3">
                     <p class="card-title fw-bold">Jonathan Doe</p>
@@ -214,7 +250,7 @@
                 <li>
                   <span class="tf-nc text-success">
                     <div class="card rounded-3 border-0 shadow">
-                      <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
+                      <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75 advance-member" src="https://picsum.photos/80"
                         alt="Card image cap">
                       <div class="card-body px-3">
                         <p class="card-title fw-bold">Jonathan Doe</p>
@@ -230,8 +266,8 @@
                     <li>
                       <span class="tf-nc text-success">
                         <div class="card rounded-3 border-0 shadow">
-                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
-                            alt="Card image cap">
+                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75"
+                            src="https://picsum.photos/80" alt="Card image cap">
                           <div class="card-body px-3">
                             <p class="card-title fw-bold">Jonathan Doe</p>
                           </div>
@@ -251,8 +287,8 @@
                     <li>
                       <span class="tf-nc text-success">
                         <div class="card rounded-3 border-0 shadow">
-                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
-                            alt="Card image cap">
+                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75"
+                            src="https://picsum.photos/80" alt="Card image cap">
                           <div class="card-body px-3">
                             <p class="card-title fw-bold">Jonathan Doe</p>
                           </div>
@@ -268,7 +304,7 @@
                           </div>
                         </div>
                       </span>
-                      
+
                     </li>
                   </ul>
                 </li>
@@ -296,8 +332,8 @@
                     <li>
                       <span class="tf-nc text-success">
                         <div class="card rounded-3 border-0 shadow">
-                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
-                            alt="Card image cap">
+                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75"
+                            src="https://picsum.photos/80" alt="Card image cap">
                           <div class="card-body px-3">
                             <p class="card-title fw-bold">Jonathan Doe</p>
                           </div>
@@ -317,8 +353,8 @@
                     <li>
                       <span class="tf-nc text-success">
                         <div class="card rounded-3 border-0 shadow">
-                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75" src="https://picsum.photos/80"
-                            alt="Card image cap">
+                          <img class="rounded-circle img-thumbnail hirarki-foto mx-auto w-75"
+                            src="https://picsum.photos/80" alt="Card image cap">
                           <div class="card-body px-3">
                             <p class="card-title fw-bold">Jonathan Doe</p>
                           </div>
@@ -343,26 +379,6 @@
         </li>
       </ul>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer>
-      Check out the <a target="_blank" href="https://dumptyd.github.io/treeflex/">project page</a> for documentation.
-    </footer>
 
   </div>
 </div>

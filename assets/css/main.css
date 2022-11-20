@@ -138,3 +138,27 @@ a:hover {
   top: -30px;
   left: -30px;
 }
+
+div#legend {
+  position: absolute;
+  right: 0;
+  /* top: 0; */
+  width: 300px;
+}
+
+.hirarki-foto.pro-member {
+  border-color: #333;
+}
+
+.hirarki-foto.advance-member {
+  border-color: rgba(242, 210, 41, 1);
+}
+
+.hirarki-foto.pro-member {
+  border-color: #333;
+}
+
+.hirarki-foto.basic-member {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
