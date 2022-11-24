@@ -25,9 +25,11 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="https://unpkg.com/treeflex/dist/css/treeflex.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/treeflex/dist/css/treeflex.css"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-
   </head>
   <body class="vh-100 bg-light">
     <div class="row g-0">
@@ -51,50 +53,109 @@
             </div>
             <ul class="nav nav-pills flex-column mb-auto">
               <li class="nav-item">
-                <a href="pages/home.html" class="nav-link link-dark" aria-current="page">
-                  <img src="assets/img/dashboard.png" width="20" alt="" class="mx-2 img-fluid">
+                <a
+                  href="pages/home.html"
+                  class="nav-link link-dark"
+                  aria-current="page"
+                >
+                  <img
+                    src="assets/img/dashboard.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/dashboard.html" class="nav-link link-dark active" aria-current="page">
-                  <img src="assets/img/dashboard.png" width="20" alt="" class="mx-2 img-fluid">
+                <a
+                  href="pages/dashboard.html"
+                  class="nav-link link-dark active"
+                  aria-current="page"
+                >
+                  <img
+                    src="assets/img/dashboard.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
                   Dashboard
                 </a>
               </li>
               <li>
-                <a href="pages/team-dev.html" class="nav-link link-dark ">
-                  <img src="assets/img/team-dev.png" width="20" alt="" class="mx-2 img-fluid">
+                <a href="pages/team-dev.html" class="nav-link link-dark">
+                  <img
+                    src="assets/img/team-dev.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
                   Team Development
                 </a>
               </li>
               <li>
                 <a href="pages/team-group.html" class="nav-link link-dark">
-                  <img src="assets/img/team-group.png" width="20" alt="" class="mx-2 img-fluid">
+                  <img
+                    src="assets/img/team-group.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
                   Team Group
                 </a>
               </li>
               <li>
                 <a href="pages/transaction.html" class="nav-link link-dark">
-                  <img src="assets/img/transaction.png" width="20" alt="" class="mx-2 img-fluid">
+                  <img
+                    src="assets/img/transaction.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
                   Transaction
                 </a>
               </li>
               <li>
+                <a href="pages/transaction-detail.html" class="nav-link link-dark">
+                  <img
+                    src="assets/img/transaction.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
+                  Transaction Detail
+                </a>
+              </li>
+              <li>
                 <a href="pages/bonus.html" class="nav-link link-dark">
-                  <img src="assets/img/bonus.png" width="20" alt="" class="mx-2 img-fluid">
+                  <img
+                    src="assets/img/bonus.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
                   Bonus
                 </a>
               </li>
               <li>
                 <a href="pages/tax.html" class="nav-link link-dark">
-                  <img src="assets/img/bonus.png" width="20" alt="" class="mx-2 img-fluid">
+                  <img
+                    src="assets/img/bonus.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
                   Tax Statement
                 </a>
               </li>
               <li>
                 <a href="pages/marketing-tools.html" class="nav-link link-dark">
-                  <img src="assets/img/Commercial.png" width="20" alt="" class="mx-2 img-fluid">
+                  <img
+                    src="assets/img/Commercial.png"
+                    width="20"
+                    alt=""
+                    class="mx-2 img-fluid"
+                  />
                   Marketing Tools
                 </a>
               </li>
@@ -103,7 +164,7 @@
             <ul class="nav">
               <li class="nav-item">
                 <a href="#" class="nav-link text-secondary" aria-current="page">
-                  <i class="fa fa-sign-out-alt    "></i>
+                  <i class="fa fa-sign-out-alt"></i>
                   Logout
                 </a>
               </li>
@@ -142,7 +203,7 @@
 
       <div class="col-md-10">
         <!-- Main Content -->
-       
+
         <main id="main" class="p-lg-5 p-3"></main>
       </div>
     </div>
@@ -167,22 +228,25 @@
       console.log(navlink);
       navlink;
       /*
-      for (let elm of navlink) {
-        elm.addEventListener("click", function (e) {
-          let page = e.target.getAttribute("href");
-          console.log(page);
-          e.preventDefault();
-          // remove active class
-          var current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-          // e.classList.remove('active')
-          getPage(page);
-          // e.classList.add('active')
-        });
-      }*/
+  for (let elm of navlink) {
+    elm.addEventListener("click", function (e) {
+      let page = e.target.getAttribute("href");
+      console.log(page);
+      e.preventDefault();
+      // remove active class
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      // e.classList.remove('active')
+      getPage(page);
+      // e.classList.add('active')
+    });
+  }*/
       document.querySelector("body").addEventListener("click", function (e) {
-        if (e.target.classList.contains("nav-link")) {
+        if (
+          e.target.classList.contains("nav-link") ||
+          e.target.classList.contains("nav-ajax")
+        ) {
           let page = e.target.getAttribute("href");
           console.log(page);
           console.log(e.target.tagName);
@@ -199,6 +263,8 @@
             // e.classList.remove('active')
             getPage(page);
           }
+
+          window.scrollTo({ top: 0, behavior: "smooth" });
         }
       });
 
