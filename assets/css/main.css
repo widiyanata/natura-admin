@@ -162,3 +162,16 @@ div#legend {
   border-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Col fix */
+.col-fix-wrapper {
+  min-width: 1366px;
+  max-width: 100%;
+}
+
+.col-kiri-fix {
+  width: 30%;
+}
+.col-kanan-fix {
+  width: 65%;
+}
+
