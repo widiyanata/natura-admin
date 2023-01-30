@@ -163,15 +163,20 @@ div#legend {
 }
 
 /* Col fix */
+.container-fix {
+  width: 1200px;
+  margin: 0 auto;
+}
 .col-fix-wrapper {
-  min-width: 1366px;
-  max-width: 100%;
+  display: flex;
 }
 
 .col-kiri-fix {
-  width: 30%;
+  flex: 1 0 25%;
+  padding:10px;
 }
 .col-kanan-fix {
-  width: 65%;
+  flex: 1 0 75%;
+  padding:10px;
 }
 
