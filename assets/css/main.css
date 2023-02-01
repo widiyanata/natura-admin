@@ -174,9 +174,11 @@ div#legend {
 .col-kiri-fix {
   flex: 1 0 25%;
   padding:10px;
+  min-width: 300px;
 }
 .col-kanan-fix {
   flex: 1 0 75%;
   padding:15px;
+  position: relative;
 }
 
