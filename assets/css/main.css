@@ -180,5 +180,6 @@ div#legend {
   flex: 1 0 75%;
   padding:15px;
   position: relative;
+  min-width: 1366px;
 }
 
