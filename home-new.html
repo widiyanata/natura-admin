@@ -503,68 +503,7 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <!-- <script src="assets/js/main.js"></script> -->
 
-  <script>
-    // default load page
-    getPage("pages/dashboard.html");
-
-    let navlink = document.querySelectorAll("a.nav-link");
-    console.log(navlink);
-    navlink;
-    /*
-for (let elm of navlink) {
-  elm.addEventListener("click", function (e) {
-    let page = e.target.getAttribute("href");
-    console.log(page);
-    e.preventDefault();
-    // remove active class
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-    // e.classList.remove('active')
-    getPage(page);
-    // e.classList.add('active')
-  });
-}*/
-    document.querySelector("body").addEventListener("click", function (e) {
-      if (
-        e.target.classList.contains("nav-link") ||
-        e.target.classList.contains("nav-ajax")
-      ) {
-        let page = e.target.getAttribute("href");
-        console.log(page);
-        console.log(e.target.tagName);
-        if (
-          page != "#" &&
-          e.target.tagName == "A" &&
-          e.target.getAttribute("href").indexOf("#") != 0
-        ) {
-          e.preventDefault();
-          // remove active class
-          var current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-          // e.classList.remove('active')
-          getPage(page);
-        }
-
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-    });
-
-    function getPage(page) {
-      fetch(page)
-        .then((response) => {
-          return response.text();
-        })
-        .then((data) => {
-          document.querySelector("#main").innerHTML = data;
-        });
-    }
-
-
-  </script>
-
-
+ 
 </body>
 
 </html>
